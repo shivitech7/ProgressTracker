@@ -1,0 +1,85 @@
+p{
+    font-size: 1.2rem;
+    font-weight:400;
+    color: #155298;
+}
+
+.main_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.middle_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    /* border: 1px solid black; */
+    padding: 1rem;
+    width: fit-content;
+}
+
+.band_container{
+   /* margin-left: 200px; */
+   border: 7px solid rgb(231, 230, 230);  
+   width: 8rem;
+   height: 8rem;
+   border-radius: 50%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+  
+}
+
+.progress_container{
+    /* border: 1px solid black; */
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.progress_container div {
+    /* border: 1px solid black; */
+    width: 8rem;
+    height: 6rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.progress_container div p {
+    color:#155298;
+}
+
+.vertical_seperator{
+    width: 0.2rem;
+    height: 3rem;
+    background-color: rgb(192, 189, 189);
+    border-radius: 4rem;
+}
+
+.trend_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    margin-top: 0.5rem;
+    width: fit-content;
+}
+
+.column{
+    font-weight: bold;
+
+    text-align: center;
+}
